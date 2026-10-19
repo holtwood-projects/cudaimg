@@ -65,7 +65,7 @@ On top of the core path, the following common image processing operators are imp
 - NVIDIA GPU (only needed for running tests and examples; pure compilation does not require one)
 
 ```bash
-git clone https://github.com/build-workbench/cudaimg.git
+git clone https://github.com/holtwood-projects/cudaimg.git
 cd cudaimg
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j$(nproc)
@@ -225,7 +225,7 @@ This project is open-sourced under the [MIT License](LICENSE).
 - NVIDIA GPU（仅运行测试和示例时需要，纯编译不需要）
 
 ```bash
-git clone https://github.com/build-workbench/cudaimg.git
+git clone https://github.com/holtwood-projects/cudaimg.git
 cd cudaimg
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j$(nproc)
